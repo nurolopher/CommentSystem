@@ -1,6 +1,8 @@
 # Introduction
 This is a documentation file for **Comment System** project. Here you will find step by step guide on how to install **Comment System** and get it running. Also,the project structure is explained in depth.
 
+
+
 ### Installation
 
 1. Copy all the files into your web server root folder.
@@ -35,4 +37,6 @@ Project consists of the following folders and root files.
 
 ## Final Thoughts.
 
-Of course, this projects source code can be improved, and the project structure changed. By adding **autoloading** features **namespacing** principle can be applied to remove all the `require_once`, `include_once`. In that case code becomes both less error prone and less in quantity with more **quality**.
+Of course, this projects source code can be improved, and the project structure changed. By adding **autoloading** features **namespacing** principle can be applied to remove all the `require_once`, `include_once`. In that case code becomes both less error prone and less in quantity with more **quality standard**.
+
+Fina,lly I used **bootstrap** to layout quickly. I could have done all it myself, but it would take more time. And I used **jQuery** and **jQuery Widget Factory** to abstract **dom** manipulation and **ajax** request creation. I could of course used low level dom manipulation and xmlhttprequest api. I hope, I was not allowed to use third party libraries and frameworks on backend only. If needed, I am ready to rewrite frontend layout and javascript code in pure javascript anytime.
