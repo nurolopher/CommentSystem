@@ -1,7 +1,10 @@
 # Introduction
 This is a documentation file for **Comment System** project. Here you will find step by step guide on how to install **Comment System** and get it running. Also,the project structure is explained in depth.
 
+### Video Demo
 
+Just in case, there may be problems in configuring on local machine, created a video demo on youtube.
+[YouTube](https://www.youtube.com/watch?v=hrwlw68xTmY)
 
 ### Installation
 
