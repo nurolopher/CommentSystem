@@ -37,9 +37,14 @@ Project consists of the following folders and root files.
 
 **views** this folder contains most of the **partial** files which are used inside some other php files.
 
+### Database structure
+
+You can view the er diagram of the database on file `database-design.png` on a root folder.
 
 ## Final Thoughts.
 
 Of course, this projects source code can be improved, and the project structure changed. By adding **autoloading** features **namespacing** principle can be applied to remove all the `require_once`, `include_once`. In that case code becomes both less error prone and less in quantity with more **quality standard**.
 
 Fina,lly I used **bootstrap** to layout quickly. I could have done all it myself, but it would take more time. And I used **jQuery** and **jQuery Widget Factory** to abstract **dom** manipulation and **ajax** request creation. I could of course used low level dom manipulation and xmlhttprequest api. I hope, I was not allowed to use third party libraries and frameworks on backend only. If needed, I am ready to rewrite frontend layout and javascript code in pure javascript anytime.
+
+I implemented all the requirements on a task description paper, from automatic new post loading to spam protection, I used a simple once for all of them. Since I could not use third party libraries.
